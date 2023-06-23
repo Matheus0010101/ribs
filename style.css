@@ -1,0 +1,355 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-caixa{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 1, 208);
+}
+
+.header-um{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2vw;
+}
+
+.header-dois{
+    display: flex;
+    margin-right: 2vw;
+}
+
+#input{
+    height: 5vh;
+    width: 20vw;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+.imagem-header{
+    width: 4vw;
+    height: 8vh;
+    margin: 2vh;
+}
+
+#header-caixa-um{
+    display: flex;
+    border-radius: 5vh;
+    padding: 1vh;
+    color: white;
+    background-color: rgb(1, 1, 208);
+    text-decoration: none;
+ 
+}
+
+.header-caixa-dois{
+    height: 4vh;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 3vh;
+    margin: 0.7vh;
+    align-items: center;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    color: white;
+}
+
+.header-caixa-dois :hover{
+    display: flex;
+    color: black;
+    transition: color 0.3s ease-in-out;
+}
+
+#header-caixa-dois{
+    border: 1px solid rgb(1, 1, 208);
+    background-color: rgb(1, 1, 208);
+    padding: 7px;
+    border-radius: 25px;
+}
+
+/* ------------------------------------------------- */
+
+.titulo-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 208);
+    height: 30vh;
+    font-size: 35px;
+    color: white;
+}
+
+.nossos-serviços{
+    height: 60vh;
+    background-color: white;
+}
+
+#h3-titulo-A{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px
+}
+
+#blocos{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    color: black;
+}
+
+
+.blocos-card{
+    border: 0.5px solid rgb(234, 232, 232);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+#imagem-card{
+    height: 35vh;
+    
+}
+
+#caixa-um{
+    font-size: 3.5vh;
+
+}
+
+/* #imagem-banho-de-peças-um{
+    width: 10vw;
+} */
+
+/* #caixa-um{
+    border: 1px solid black ;
+    display: flex;
+    padding: 1vh;
+    padding-bottom: 35vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+.setor-usinagem-1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 208);
+}
+
+.setor-usinagem-2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 208);
+    padding: 2vh;
+}
+
+#titulo-B{
+    display: flex;
+    margin-left: 30vh;
+    font-size: 13vh;
+}
+
+#imagem-setor-usinagem1{
+    width: 80vh;
+}
+
+#imagem-setor-usinagem2{
+    width: 50vw;
+    margin-left: 3vw;
+    border: 1px solid black;
+}
+
+#texto-usinagem{
+    font-size: 3.5vh;
+    padding: 3vw;
+    text-align: justify;
+    
+}
+
+#titulo-montagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vh;
+    margin: 5vh;
+}
+
+#imagem-maquina{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-maquina{
+    font-size: 3.5vh;
+    padding: 3vw;
+    text-align: justify;
+}
+
+.personalizados-1{
+
+    background-color: rgb(1, 1, 208);
+}
+
+#titulo-personalizados{
+    font-size: 9vh;
+    display: flex;
+    justify-content: end;
+    margin-right: 20vw;
+    padding: 3vh;
+}
+
+.div-personalizados-img-text{
+    display: flex;
+    align-items: center;
+    background-color: rgb(1, 1, 208);
+    padding: 2vh;
+}
+
+#texto-personalizados{
+    font-size: 3.5vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    text-align: justify;
+}
+
+#imagem-personalizados{
+    height: 60vh;
+    margin-right: 10vw;
+}
+
+#banho{
+    margin-left: 15vh;
+    margin-top: 5vh;
+
+}
+
+#de{
+    margin-left: 15vh;
+    margin-top: 10vh;
+}
+
+#peças{
+    margin-left: 15vh;
+    margin-top: 15vh;
+}
+
+#banho-de-peças{
+    display: flex;
+    font-size: 9vh;
+    padding: 3vh;
+}
+
+#imagem-banho-de-peças{
+    display: flex;
+    width: 80vw;
+    margin-left: 5vh;
+    padding: 2vh;
+}
+
+.div-banho-dpc{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    font-size: 3.5vh;
+}
+
+#texto-dpc{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.div-sobre{
+    background-color: rgb(1, 1, 208);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titulo-sobre{
+    font-size: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+#texto-sobre{
+    font-size: 4vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 2vh;
+    text-align: justify;
+}
+
+#imagem-sobre{
+    padding: 10vh;
+    width: 90vw;
+}
+
+.login{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-size: 3vh;
+    background-color: rgb(32, 32, 255);
+}
+
+#login-email{
+    display: flex;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+
+#login-senha{
+    display: flex;
+    padding: 1vh;
+    border-radius: 5vh;
+}
+
+#login-entrar{
+    display: flex;
+    width: 5vw;
+    height: 3vh;
+}
+
+#entrar-login{
+    width: 4vw;
+    height: 3vh;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 5vh;
+    justify-content: space-between;
+    font-size: 3vh;
+}
+
+.div-footer-um{
+    margin-left: 15vw;
+}
+
+.div-footer-dois{
+    margin-right: 15vw;
+}
+
+#textos{
+    color: white;
+    text-decoration: none;
+}
